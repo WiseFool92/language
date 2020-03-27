@@ -18,7 +18,9 @@ WiseFool92.github.io/language
 
 ## Known Bugs
 
-None known as of 03/27/2020
+no matter your choice, python programming will always suit you
+
+Known as of 03/27/2020
 
 ## Support and contact details
 
