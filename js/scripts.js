@@ -45,5 +45,4 @@ $(document).ready(function(){
         $("#c-winner").removeClass("hidden");
       }
     });
-
 });

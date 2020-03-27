@@ -16,3 +16,12 @@ img {
 .container .well .jumbotron #radio h1 {
   color: darkblue;
 }
+.container {
+  float: left;
+}
+.container1 {
+  float: right;
+}
+.hidden {
+  display: none;
+}
