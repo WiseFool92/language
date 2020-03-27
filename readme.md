@@ -14,7 +14,7 @@ Clone/download repository, Open HTML to view the webpage
 
 ## gh-pages
 
-WiseFool92.github.io/landing
+WiseFool92.github.io/language
 
 ## Known Bugs
 
