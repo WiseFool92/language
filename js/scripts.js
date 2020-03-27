@@ -7,11 +7,15 @@ $(document).ready(function(){
     var question4 = $("input:radio[name=q4]:checked").val();
     var question5 = $("input:radio[name=q5]:checked").val();
     var question6 = $("input:radio[name=q6]:checked").val();
+    var question7 = $("input:radio[name=q7]:checked").val();
+    var question8 = $("input:radio[name=q8]:checked").val();
+    var question9 = $("input:radio[name=q9]:checked").val();
+    var question10 = $("input:radio[name=q10]:checked").val();
     var aResults = 0;
     var bResults = 0;
     var cResults = 0;
 
-    var outcomesArray = [question1,question2,question3,question4,question5]
+    var outcomesArray = [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10]
 
     for (let i = 0; i > 5; i++) {
       if (outcomesArray[i] === "a") {
@@ -40,10 +44,10 @@ $(document).ready(function(){
         $("#a-winner").removeClass("hidden");
       }
       else if (initialVictor === "b") {
-        $("#b-winner").removeClass("hidden");
+        $("#b-winner").removeClass();
       }
       else if (initialVictor === "c") {
-        $("#c-winner").removeClass("hidden");
+        $("#c-winner").removeClass();
       }
     });
 });
