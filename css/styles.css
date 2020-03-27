@@ -13,3 +13,6 @@ img {
   padding: 10px;
   margin: 2px;
 }
+.container .well .jumbotron #radio h1 {
+  color: darkblue;
+}
