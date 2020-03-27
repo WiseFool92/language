@@ -1,12 +1,12 @@
-# Branching
+# language
 
-#### Git, HTML, Bootstrap, md, CSS, js, jQuery Exercise for Epicodus, 03.24.2020
+#### Git, HTML, Bootstrap, md, CSS, js, jQuery Exercise for Epicodus, 03.27.2020
 
-#### By Nathan W-H & Chris H, Dom M
+#### By Nathan W-H
 
 ## Description
 
-Branching practice
+Multiple choice quiz that tells the user which programmming languages best suits them.
 
 ## Setup Instructions
 
@@ -14,18 +14,15 @@ Clone/download repository, Open HTML to view the webpage
 
 ## gh-pages
 
-WiseFool92.github.io/thurs-3-26-work/
-CHuber42.github.io/thurs-3-26-work/
-
+WiseFool92.github.io/landing
 
 ## Known Bugs
 
-None known as of 03/24/2020
+None known as of 03/27/2020
 
 ## Support and contact details
 
 Email: watkins92@gmail.com
-Email: CHuber42@gmail.com
 
 ## Technologies Used
 
