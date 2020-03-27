@@ -24,6 +24,26 @@ $(document).ready(function(){
       }
     }
 
-    var initialWinner = "a";
-  }
-}
+    var initialVictor = "a";
+
+    if (bResults >= aResults) {
+      initialVictor = "b";
+    }
+    if (cResults >= aResults) {
+      initialVictor = "c"
+    }
+    if (bResults >= cResults && bResults >= aResults) {
+      initialVictor = "b"
+      }
+      if (initialVictor === "a") {
+        $("#a-winner").removeClass("hidden");
+      }
+      else if (initialVictor === "b") {
+        $("#b-winner").removeClass("hidden");
+      }
+      else if (initialVictor === "c") {
+        $("#c-winner").removeClass("hidden");
+      }
+    });
+
+});
