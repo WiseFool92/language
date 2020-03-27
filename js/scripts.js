@@ -44,10 +44,10 @@ $(document).ready(function(){
         $("#a-winner").removeClass("hidden");
       }
       else if (initialVictor === "b") {
-        $("#b-winner").removeClass();
+        $("#b-winner").removeClass("hidden");
       }
       else if (initialVictor === "c") {
-        $("#c-winner").removeClass();
+        $("#c-winner").removeClass("hidden");
       }
     });
 });
