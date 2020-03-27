@@ -22,7 +22,7 @@ img {
 .container1 {
   float: right;
 }
-.container1 .well .jumbotron .hidden #a-winner p {
+.container1 .well .jumbotron #a-winner .hidden p {
   padding: 10px;
   margin: 2px;
   border: 10px olivedrab;

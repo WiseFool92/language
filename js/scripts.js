@@ -6,6 +6,7 @@ $(document).ready(function(){
     var question3 = $("input:radio[name=q3]:checked").val();
     var question4 = $("input:radio[name=q4]:checked").val();
     var question5 = $("input:radio[name=q5]:checked").val();
+    var question6 = $("input:radio[name=q6]:checked").val();
     var aResults = 0;
     var bResults = 0;
     var cResults = 0;
