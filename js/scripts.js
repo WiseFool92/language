@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     var outcomesArray = [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10]
 
-    for (let i = 0; i > 5; i++) {
+    for (let i = 0; i < 10; i++) {
       if (outcomesArray[i] === "a") {
         aResults += 1;
       }
@@ -28,26 +28,32 @@ $(document).ready(function(){
         cResults += 1;
       }
     }
-
+    
+    // Defaults to a, then b for ties
     var initialVictor = "a";
 
-    if (bResults >= aResults) {
+    if (bResults > aResults && bResults >= cResults) {
       initialVictor = "b";
     }
-    if (cResults >= aResults) {
-      initialVictor = "c"
+    if (cResults > aResults && cResults > bResults) {
+      initialVictor = "c";
     }
-    if (bResults >= cResults && bResults >= aResults) {
-      initialVictor = "b"
-      }
-      if (initialVictor === "a") {
-        $("#a-winner").removeClass("hidden");
-      }
-      else if (initialVictor === "b") {
-        $("#b-winner").removeClass("hidden");
-      }
-      else if (initialVictor === "c") {
-        $("#c-winner").removeClass("hidden");
-      }
+
+    if (initialVictor === "a") {
+      $("#a-winner").removeClass("hidden");
+      $("#b-winner").addClass("hidden");
+      $("#c-winner").addClass("hidden");
+    }
+    else if (initialVictor === "b") {
+      $("#b-winner").removeClass("hidden");
+      $("#a-winner").addClass("hidden");
+      $("#c-winner").addClass("hidden");
+    }
+    else if (initialVictor === "c") {
+      $("#c-winner").removeClass("hidden");
+      $("#a-winner").addClass("hidden");
+      $("#b-winner").addClass("hidden");
+    }
+    
     });
 });
